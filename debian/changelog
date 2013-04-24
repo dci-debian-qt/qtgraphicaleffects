@@ -1,6 +1,5 @@
 qtgraphicaleffects-opensource-src (5.0.2-1) UNRELEASED; urgency=low
 
   * Initial release.
-  * Add 0001-SourceProxy.qml-removing-binding-output-input.patch
 
  -- Timo Jyrinki <timo@debian.org>  Wed, 06 Feb 2013 09:07:20 +0000
