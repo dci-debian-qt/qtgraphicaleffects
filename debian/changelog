@@ -1,4 +1,4 @@
-qtgraphicaleffects-opensource-src (5.0.1-1) UNRELEASED; urgency=low
+qtgraphicaleffects-opensource-src (5.0.2-1) UNRELEASED; urgency=low
 
   * Initial release.
   * Add 0001-SourceProxy.qml-removing-binding-output-input.patch
