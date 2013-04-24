@@ -1,2 +1,2 @@
 version=3
-http://origin.releases.qt-project.org/qt5/([\d\.]*)/submodules_tar/qtgraphicaleffects-opensource-src-([^-]*)\.tar.xz
+http://origin.releases.qt-project.org/qt5/([\d\.]*)/submodules/qtgraphicaleffects-opensource-src-([^-]*)\.tar.xz
