@@ -9,10 +9,13 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --list-missing --parallel
+	dh $@ --parallel
 
 override_dh_auto_configure:
 	qmake
+
+override_dh_install:
+	dh_install --fail-missing
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
