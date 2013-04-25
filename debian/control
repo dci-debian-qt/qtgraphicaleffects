@@ -28,6 +28,6 @@ Description: Qt 5 Graphical Effects module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- Qt Graphical Effects contains ready to use visual effects for OpenGL 
+ Qt Graphical Effects contains ready to use visual effects for OpenGL
  QML applications.
 
