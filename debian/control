@@ -18,7 +18,7 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtgraphicaleffects.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtgraphicaleffects.git;a=summary
 
-Package: libqt5graphicaleffects5
+Package: libqt5qml-graphicaleffects
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
