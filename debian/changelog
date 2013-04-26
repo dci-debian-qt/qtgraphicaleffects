@@ -1,5 +1,5 @@
-qtgraphicaleffects-opensource-src (5.0.2-1) UNRELEASED; urgency=low
+qtgraphicaleffects-opensource-src (5.0.2-1) experimental; urgency=low
 
   * Initial release (Closes: #697509).
 
- -- Timo Jyrinki <timo@debian.org>  Wed, 06 Feb 2013 09:07:20 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 26 Apr 2013 13:25:56 -0300
