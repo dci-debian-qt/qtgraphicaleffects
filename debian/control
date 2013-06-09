@@ -32,3 +32,27 @@ Description: Qt 5 Graphical Effects module
  Qt Graphical Effects contains ready to use visual effects for OpenGL
  QML applications.
 
+Package: qtgraphicaleffects5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 graphical effects documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 graphical effects
+ libraries.
+
+Package: qtgraphicaleffects5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 graphicaleffects HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 graphical effects
+ libraries.
+
