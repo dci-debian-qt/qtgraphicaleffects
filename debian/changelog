@@ -9,6 +9,8 @@ qtgraphicaleffects-opensource-src (5.0.2-2) UNRELEASED; urgency=low
       * qttools5-dev-tools to use qhelpgenerator.
       * libqt5sql5-sqlite to generate qch doc
     - Build and create packages for qch and HTML doc formats.
+    - Also create an install files for the QML graphical effects this package
+      ships.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 16:34:58 +0200
 
