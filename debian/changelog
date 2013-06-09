@@ -3,6 +3,12 @@ qtgraphicaleffects-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Update Vcs-Browser and Vcs-Git headers.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Build the documentation shipped with this submodule as a build-indep task:
+    - Add the necessary indep build dependencies:
+      * qttools5-dev-tools to use qhelpgenerator.
+      * libqt5sql5-sqlite to generate qch doc
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Apr 2013 16:34:58 +0200
 
 qtgraphicaleffects-opensource-src (5.0.2-1) experimental; urgency=low
