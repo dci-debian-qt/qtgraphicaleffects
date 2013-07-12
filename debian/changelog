@@ -1,11 +1,10 @@
-qtgraphicaleffects-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+qtgraphicaleffects-opensource-src (5.1.0-1) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Fix watch file.
   * Bump Qt build dependencies to 5.1.0~.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Jul 2013 21:08:18 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 11 Jul 2013 21:25:28 -0300
 
 qtgraphicaleffects-opensource-src (5.0.2-2) experimental; urgency=low
 
