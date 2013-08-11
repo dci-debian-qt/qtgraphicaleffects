@@ -1,6 +1,8 @@
-qtgraphicaleffects-opensource-src (5.1.0-2) UNRELEASED; urgency=low
+qtgraphicaleffects-opensource-src (5.1.0-2) unstable; urgency=low
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Aug 2013 12:35:16 -0300
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 11 Aug 2013 12:35:45 -0300
 
 qtgraphicaleffects-opensource-src (5.1.0-1) experimental; urgency=low
 
