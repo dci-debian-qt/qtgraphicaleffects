@@ -23,16 +23,6 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtgraphicaleffects.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtgraphicaleffects.git;a=summary
 
-Package: libqt5qml-graphicaleffects
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtgraphicaleffects, ${misc:Depends}
-Description: transitional dummy package for Qt 5 Graphical Effects module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-module-qtgraphicaleffects
 Architecture: any
 Multi-Arch: same
