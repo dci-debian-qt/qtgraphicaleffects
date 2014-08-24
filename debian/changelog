@@ -1,5 +1,7 @@
 qtgraphicaleffects-opensource-src (5.3.1-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Drop dh_builddeb override, no longer needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Aug 2014 21:39:15 +0400
 
