@@ -14,9 +14,7 @@ Build-Depends: dbus,
                pkg-kde-tools,
                qml-module-qtquick2,
                qtbase5-private-dev (>= 5.3.1+dfsg-2~),
-               qtdeclarative5-private-dev (>= 5.3.1~),
-               xauth,
-               xvfb
+               qtdeclarative5-private-dev (>= 5.3.1~)
 Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.3.1~)
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
