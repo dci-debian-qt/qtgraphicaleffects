@@ -8,6 +8,7 @@ qtgraphicaleffects-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
+  * Use correct syntax in debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Aug 2014 21:39:15 +0400
 
