@@ -1,6 +1,5 @@
-qtgraphicaleffects-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
+qtgraphicaleffects-opensource-src (5.4.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.0.
   * Update debian/copyright.
@@ -8,7 +7,7 @@ qtgraphicaleffects-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Dec 2014 12:41:04 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 26 Dec 2014 13:24:29 +0300
 
 qtgraphicaleffects-opensource-src (5.3.2-2) unstable; urgency=medium
 
