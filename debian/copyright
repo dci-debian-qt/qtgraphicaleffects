@@ -30,7 +30,7 @@ Files: tools/pngdumper/*.qml
 Copyright: 2013 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
-License: LGPL-2.1 with Digia-1.1 exception
+License: LGPL-2.1-or-3 with Digia-1.1 exception
  GNU Lesser General Public License:
  This file may be used under the terms of the GNU Lesser General Public
  License version 2.1 or version 3 as published by the Free Software
