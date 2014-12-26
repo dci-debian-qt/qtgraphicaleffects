@@ -4,6 +4,7 @@ qtgraphicaleffects-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.0.
   * Update debian/copyright.
+  * Update Vcs-Browser field to point to cgit interface.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Dec 2014 12:41:04 +0300
 
