@@ -13,10 +13,11 @@ Build-Depends: dbus,
                debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                pkg-kde-tools,
-               qml-module-qtquick2 (>= 5.4.0~),
-               qtbase5-private-dev (>= 5.4.0+dfsg~),
-               qtdeclarative5-private-dev (>= 5.4.0~)
-Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.4.0~)
+               qml-module-qtquick2 (>= 5.4.1~),
+               qtbase5-private-dev (>= 5.4.1+dfsg~),
+               qtdeclarative5-private-dev (>= 5.4.1~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.4.1+dfsg~),
+                     qttools5-dev-tools (>= 5.4.1~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtgraphicaleffects.git
