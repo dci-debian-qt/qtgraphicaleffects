@@ -1,13 +1,12 @@
-qtgraphicaleffects-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtgraphicaleffects-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/watch to point to https://download.qt.io/.
   * Add qtdeclarative5-doc-html to Build-Depends-Indep, for docs linking.
   * Minor debian/copyright updates.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 11:57:08 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 05 Mar 2015 12:13:47 +0300
 
 qtgraphicaleffects-opensource-src (5.4.0-1) experimental; urgency=medium
 
