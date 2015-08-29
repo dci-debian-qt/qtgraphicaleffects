@@ -1,6 +1,5 @@
-qtgraphicaleffects-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qtgraphicaleffects-opensource-src (5.5.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.5.0.
   * Do not attempt to run tests during arch-indep builds.
@@ -8,7 +7,7 @@ qtgraphicaleffects-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
     ${shlibs:Depends}.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2015 20:33:17 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 29 Aug 2015 21:44:56 +0300
 
 qtgraphicaleffects-opensource-src (5.4.2-2) unstable; urgency=medium
 
