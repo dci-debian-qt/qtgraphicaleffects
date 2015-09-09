@@ -1,3 +1,11 @@
+qtgraphicaleffects-opensource-src (5.5.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Sync with Debian's packaging, remaining changes:
+    - Transitional package until Ubuntu 16.04 LTS.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 27 Mar 2015 07:30:52 +0000
+
 qtgraphicaleffects-opensource-src (5.5.0-1) experimental; urgency=medium
 
   * New upstream release.
@@ -15,6 +23,13 @@ qtgraphicaleffects-opensource-src (5.4.2-2) unstable; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 24 Jun 2015 15:49:51 -0300
 
+
+qtgraphicaleffects-opensource-src (5.4.2-1ubuntu1) wily; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 11 Jun 2015 13:41:32 +0000
+
 qtgraphicaleffects-opensource-src (5.4.2-1) experimental; urgency=medium
 
   * New upstream release.
@@ -26,6 +41,13 @@ qtgraphicaleffects-opensource-src (5.4.2-1) experimental; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 16:02:13 -0300
 
+qtgraphicaleffects-opensource-src (5.4.1-1ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+  * Sync with Debian, keep transitional package.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 11 Mar 2015 06:51:56 +0000
+
 qtgraphicaleffects-opensource-src (5.4.1-1) experimental; urgency=medium
 
   * New upstream release.
@@ -35,6 +57,12 @@ qtgraphicaleffects-opensource-src (5.4.1-1) experimental; urgency=medium
   * Minor debian/copyright updates.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Thu, 05 Mar 2015 12:13:47 +0300
+
+qtgraphicaleffects-opensource-src (5.4.0-1ubuntu1) vivid; urgency=medium
+
+  * Sync with Debian, keep transitional package.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 13 Feb 2015 06:37:31 +0000
 
 qtgraphicaleffects-opensource-src (5.4.0-1) experimental; urgency=medium
 
@@ -46,6 +74,19 @@ qtgraphicaleffects-opensource-src (5.4.0-1) experimental; urgency=medium
   * Add myself to Uploaders.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Fri, 26 Dec 2014 13:24:29 +0300
+
+qtgraphicaleffects-opensource-src (5.3.2-2ubuntu1) vivid; urgency=medium
+
+  * Restore the transitional package that got dropped from Debian. Ubuntu 
+    needs it until after 16.04 LTS.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 12 Nov 2014 10:07:25 +0000
+
+qtgraphicaleffects-opensource-src (5.3.2-2build1) vivid; urgency=medium
+
+  * No-change rebuild against Qt 5.3.2.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 07 Nov 2014 08:15:55 +0200
 
 qtgraphicaleffects-opensource-src (5.3.2-2) unstable; urgency=medium
 
