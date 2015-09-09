@@ -1,7 +1,8 @@
 Source: qtgraphicaleffects-opensource-src
 Section: libs
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
@@ -21,6 +22,16 @@ Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtgraphicaleffects.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qtgraphicaleffects.git
+
+Package: libqt5qml-graphicaleffects
+Architecture: all
+Section: oldlibs
+Depends: qml-module-qtgraphicaleffects, ${misc:Depends}
+Description: transitional dummy package for Qt 5 Graphical Effects module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
 
 Package: qml-module-qtgraphicaleffects
 Architecture: any
