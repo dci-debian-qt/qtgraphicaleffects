@@ -1,10 +1,17 @@
-qtgraphicaleffects-opensource-src (5.5.0-1ubuntu1) UNRELEASED; urgency=medium
+qtgraphicaleffects-opensource-src (5.5.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Sync with Debian's packaging, remaining changes:
     - Transitional package until Ubuntu 16.04 LTS.
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 27 Mar 2015 07:30:52 +0000
+
+qtgraphicaleffects-opensource-src (5.5.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Update dependencies.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 19 Oct 2015 10:16:56 +0000
 
 qtgraphicaleffects-opensource-src (5.5.0-1) experimental; urgency=medium
 
