@@ -7,6 +7,7 @@ qtgraphicaleffects-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
   * Disable tests for now. We were unable to make them work, we get
     "QtGraphicalEffects.private" is not installed" even with the QML2 path
     explicited passed on to them.
+  * Use https URLs in Vcs-[Git Browser].
 
   [ Timo Jyrinki ]
   * GaussianBlur requires qml-module-qtquick-window2, add to deps.
