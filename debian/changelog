@@ -4,6 +4,9 @@ qtgraphicaleffects-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
   * Bump Standards-Version to 3.9.8, no changes required.
+  * Disable tests for now. We were unable to make them work, we get
+    "QtGraphicalEffects.private" is not installed" even with the QML2 path
+    explicited passed on to them.
 
   [ Timo Jyrinki ]
   * GaussianBlur requires qml-module-qtquick-window2, add to deps.
