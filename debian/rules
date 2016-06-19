@@ -11,6 +11,9 @@ export QT_SELECT := qt5
 %:
 	dh $@ --parallel
 
+override_dh_auto_clean:
+	rm -rfv $(CURDIR)/test_root
+
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
@@ -18,7 +21,8 @@ override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
 override_dh_auto_test-arch:
-	dh_auto_test -- QT_QPA_PLATFORM=minimal
+	$(MAKE) install INSTALL_ROOT=$(CURDIR)/test_root
+	dh_auto_test -- QT_QPA_PLATFORM=minimal QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
 
 override_dh_auto_test-indep:
 
@@ -27,6 +31,3 @@ override_dh_auto_install-indep:
 
 override_dh_install:
 	dh_install --fail-missing
-
-override_dh_auto_test:
-	# We can't make them work.
