@@ -4,6 +4,7 @@ qtgraphicaleffects-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.7.0.
   * Run the tests against installed module, to make them work.
+    - Add a patch to import the module directly (test_import_module.diff).
   * Drop unused pkg-kde-tools build-dependency.
   * Update debian/copyright.
 
