@@ -26,7 +26,7 @@ Last-Update: 2016-07-12
 -    }
 -
 -    importSelf = QString("import %1 1.0\n").arg(import);
-+    importSelf = QString("import QtGraphicalEffects");
++    importSelf = QString("import QtGraphicalEffects 1.0\n");
  }
  
  
