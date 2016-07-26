@@ -4,8 +4,9 @@ qtgraphicaleffects-opensource-src (5.6.1-3ubuntu1) UNRELEASED; urgency=medium
   * Run the tests against installed module, to make them work.
 
   [ Timo Jyrinki ]
-  * Merge with Debian. The Ubuntu changes can be dropped once nothing depends 
+  * Merge with Debian. The Ubuntu changes could be dropped once nothing depends 
     on the transitional package libqt5qml-graphicaleffects.
+  * Skip tests on powerpc for now (failing).
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 20 Jul 2016 04:41:45 +0000
 

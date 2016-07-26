@@ -5,6 +5,9 @@
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
+# Skip tests on the archs they are known to be flaky with current configuration
+testskip_architectures := powerpc
+
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
@@ -23,8 +26,10 @@ override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
 override_dh_auto_test-arch:
+ifneq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(testskip_architectures)))
 	$(MAKE) install INSTALL_ROOT=$(CURDIR)/test_root
 	dh_auto_test -- QT_QPA_PLATFORM=minimal QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
+endif
 
 override_dh_auto_test-indep:
 
