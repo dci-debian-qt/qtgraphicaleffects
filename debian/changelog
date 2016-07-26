@@ -1,4 +1,4 @@
-qtgraphicaleffects-opensource-src (5.6.1-3ubuntu1) UNRELEASED; urgency=medium
+qtgraphicaleffects-opensource-src (5.6.1-3ubuntu1~2) yakkety; urgency=medium
 
   [ Dmitry Shachnev ]
   * Run the tests against installed module, to make them work.
