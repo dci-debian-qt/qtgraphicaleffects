@@ -1,10 +1,9 @@
-qtgraphicaleffects-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+qtgraphicaleffects-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
     - Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Oct 2016 21:27:44 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 25 Oct 2016 21:35:57 -0300
 
 qtgraphicaleffects-opensource-src (5.7.0-1) experimental; urgency=medium
 
