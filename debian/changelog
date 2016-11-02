@@ -1,5 +1,7 @@
 qtgraphicaleffects-opensource-src (5.7.1~20161021-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Revert the wrong change to install the temporary files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Nov 2016 11:26:50 +0300
 
