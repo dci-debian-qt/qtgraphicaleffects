@@ -2,6 +2,7 @@ qtgraphicaleffects-opensource-src (5.9.0~rc-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release candidate.
+  * Bump Qt build-dependencies to 5.9.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 May 2017 15:51:23 +0300
 
