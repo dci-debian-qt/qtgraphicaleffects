@@ -5,6 +5,13 @@ qtgraphicaleffects-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:10 +0100
 
+qtgraphicaleffects-opensource-src (5.9.0~rc-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+  * Bump Qt build-dependencies to 5.9.0.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 24 May 2017 16:03:28 +0300
+
 qtgraphicaleffects-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
   * Revert the wrong change to install the temporary files.
