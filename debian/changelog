@@ -1,9 +1,9 @@
-qtgraphicaleffects-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qtgraphicaleffects-opensource-src (5.9.0-1) experimental; urgency=medium
 
-  [ Simon Quigley ]
+  * Team upload.
   * New upstream final release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Jun 2017 20:04:33 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 16 Jun 2017 03:56:17 -0500
 
 qtgraphicaleffects-opensource-src (5.9.0~rc-1) experimental; urgency=medium
 
