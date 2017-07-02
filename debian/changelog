@@ -6,6 +6,7 @@ qtgraphicaleffects-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
   * Add build-dependency on qtdeclarative5-dev-tools, to get QML cache
     files generated.
   * Update debian/copyright for upstream license change.
+  * Bump Standards-Version to 4.0.0, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Jul 2017 18:38:17 +0300
 
