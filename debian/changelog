@@ -1,3 +1,15 @@
+qtgraphicaleffects-opensource-src (5.9.1-1) experimental; urgency=medium
+
+  * New upstream patch release.
+  * Bump Qt build-dependencies to 5.9.1.
+  * Add build-dependency on qtdeclarative5-dev-tools, to get QML cache
+    files generated.
+  * Update debian/copyright for upstream license change.
+  * Bump Standards-Version to 4.0.0, no changes needed.
+  * Drop obsolete Breaks/Replaces on pre-Jessie Qt 5.2 packages.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 02 Jul 2017 19:13:51 +0300
+
 qtgraphicaleffects-opensource-src (5.9.0-1) experimental; urgency=medium
 
   * Team upload.
