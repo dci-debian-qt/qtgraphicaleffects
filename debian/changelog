@@ -1,3 +1,9 @@
+qtgraphicaleffects-opensource-src (5.9.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 16 Aug 2017 12:29:47 +0300
+
 qtgraphicaleffects-opensource-src (5.9.1-1) experimental; urgency=medium
 
   * New upstream patch release.
