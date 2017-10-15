@@ -5,6 +5,7 @@ qtgraphicaleffects-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.2.
   * Call dh_qmlcdeps during build to get proper dependencies.
   * Use debhelper compat level 10 and dh_missing.
+  * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Oct 2017 22:45:23 +0300
 
