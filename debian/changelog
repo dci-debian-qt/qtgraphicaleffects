@@ -12,10 +12,16 @@ qtgraphicaleffects-opensource-src (5.9.2-2) unstable; urgency=medium
 
 qtgraphicaleffects-opensource-src (5.9.2-1) experimental; urgency=medium
 
+<<<<<<<
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
   * Call dh_qmlcdeps during build to get proper dependencies.
   * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
+=======
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.2.
+>>>>>>>
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sun, 15 Oct 2017 23:04:16 +0300
 
